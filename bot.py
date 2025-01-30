@@ -6,7 +6,7 @@ from info import *
 class Bot(Client):
     def __init__(self):
         super().__init__( # type:ignore
-            name="Bisal Gptt",
+            name="Raj Dev",
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
