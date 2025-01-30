@@ -1,5 +1,5 @@
 {
-    "name": "biisal",
+    "name": "Raj",
     "description": "A Pyrogram Telegram Ai-Chat-bot,api not required to use 😎. @raj_dev_01",
     "keywords": [
         "telegram",
@@ -10,10 +10,10 @@
         "media",
         "bot"
     ],
-    "repository": "https://github.com/biisal/biisal-gpt-bot/",
+    "repository": "https://github.com",
     "success_url": "/",
-    "logo": "https://i.postimg.cc/cJk8XMMc/photo-6120885699327671985-c.jpg",
-    "website": "https://bit.ly/bisal",
+    "logo": "https://i.postimg.cc",
+    "website": "",
     "env": {
         "API_ID": {
             "description": "Get this value from https://my.telegram.org"
