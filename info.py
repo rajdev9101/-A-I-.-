@@ -14,7 +14,7 @@ MONGO_URL = environ.get("MONGO_URL" , "")
 AUTH_CHANNEL = int(
     environ.get("AUTH_CHANNEL", "-1002465960701")
 )
-FSUB = environ.get("FSUB", True)
+FSUB = environ.get("FSUB", False)
 STICKERS_IDS = (
     "CAACAgQAAxkBAAEK99dlfC7LDqnuwtGRkIoacot_dGC4zQACbg8AAuHqsVDaMQeY6CcRojME"
 ).split()
