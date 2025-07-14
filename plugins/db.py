@@ -1,4 +1,4 @@
-# ©️biisal jai shree krishna 😎
+# ©️raj jai shree krishna 😎
 from typing import Any
 from info import *
 from motor import motor_asyncio
