@@ -1,5 +1,5 @@
 
-# ©️biisal jai shree krishna 😎
+# raj dev jai shree krishna 😎
 import asyncio
 import random
 from pyrogram import filters
@@ -23,7 +23,7 @@ async def startcmd(client: Client, message: Message):
         )
     if FSUB and not await get_fsub(client, message):return
     await message.reply_photo(# type:ignore
-        photo="https://envs.sh/aZ-.jpg",
+        photo="https://envs.sh/iGE.jpg",
         caption=f"<b>jai shree ram {userMention},\n\nIᴍ Hᴇʀᴇ Tᴏ Rᴇᴅᴜᴄᴇ Yᴏᴜʀ Pʀᴏʙʟᴇᴍs..\nYᴏᴜ Cᴀɴ Usᴇ Mᴇ As ʏᴏᴜʀ Pʀɪᴠᴀᴛᴇ Assɪsᴛᴀɴᴛ..\nAsᴋ Mᴇ Aɴʏᴛʜɪɴɢ...Dɪʀᴇᴄᴛʟʏ..\n\nMʏ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/raj_dev_01>Raj</a>\nMʏ Lᴏᴠᴇʀ : <a href=tg://settings/>Tʜɪs Pᴇʀsᴏɴ</a></b>",
     ) 
     return
@@ -108,15 +108,15 @@ async def gen_image(client: Client, message: Message):
         prompt = message.text.replace("/gen", "").strip()
         encoded_prompt = prompt.replace("\n", " ")
         if not prompt:
-            return await message.reply_text("Please provide a prompt.") # type:ignore
+            return await message.reply_text("raj says Please provide a prompt.") # type:ignore
         image_file = await create_image(encoded_prompt)
         if not image_file:
-            return await message.reply_text("Failed to generate image.") # type:ignore
+            return await message.reply_text("raj says Failed to generate image.") # type:ignore
         await message.reply_photo(photo=image_file , caption=f"Generated Image for prompt: {prompt[:150]}...") # type:ignore
         image_file.close()
     except Exception as e:
         print("Error in gen_image: ", e)
-        return await message.reply_text("Sorry, I am not Available right now.") # type:ignore
+        return await message.reply_text("Sorry, raj not Available right now.") # type:ignore
     finally:
         if sticker:await sticker.delete()
 
